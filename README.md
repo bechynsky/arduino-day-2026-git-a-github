@@ -4,7 +4,7 @@
 
 ---
 
-# What is Git and GitHub?
+# CO je Git a GitHub
 
 **Git** je nástroj pro správu historie kódu a verzování.  
 **GitHub** je platforma, která hostuje Git repozitáře a umožňuje týmovou spolupráci.
@@ -21,33 +21,33 @@
 
 ---
 
-# Basic Workflow: From Repo to First Commit
+# Základní workflow: Od repozitáře k prvnímu commitu
 
-1. Create repository (on GitHub or locally)  
-2. Clone or open repository on your computer  
-3. Create a new file (e.g., README or project file)  
-4. Add file to staging area  
-5. Commit changes with a message  
-6. Push commit to GitHub  
+1. Vytvořte repozitář (na GitHubu nebo lokálně)  
+2. Naklonujte repozitář nebo ho otevřete na svém počítači  
+3. Vytvořte nový soubor (např. README nebo projektový soubor)  
+4. Přidejte soubor do staging area  
+5. Vytvořte commit s komentářem  
+6. Nahrajte commit na GitHub (push) 
 
 ---
 
-# Basic Git Terminology
+# Základní terminologie
 
 - **Repository (repo):** Projektová složka sledovaná Gitem, obsahuje soubory i historii.  
+- **Clone:** Stažení vzdáleného repozitáře na lokální počítač.  
+- **Stage:** Příprava změn pro commit.  
 - **Commit:** Snímek změn uložený do repozitáře.  
 - **Branch:** Paralelní větev vývoje, často pro nové funkce nebo opravy.  
 - **Merge:** Sloučení změn z jedné větve do druhé.  
-- **Clone:** Stažení vzdáleného repozitáře na lokální počítač.  
 - **Push:** Odeslání lokálních commitů do vzdáleného repozitáře.  
 - **Pull:** Stažení a začlenění změn z remote repozitáře.  
-- **Stage:** Příprava změn pro commit.  
 
 ---
 
 # Branch – Commit – Pull Request
 
-*(diagram nebo vysvětlení v prezentaci nebylo obsaženo)*
+
 
 ---
 
