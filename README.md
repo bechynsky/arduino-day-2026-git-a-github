@@ -4,8 +4,10 @@
 
 # Co je Git a GitHub
 
-**[Git](https://git-scm.com/)** je nástroj pro správu historie kódu a verzování.  
-**[GitHub](https://github.com/)** je platforma, která hostuje Git repozitáře a umožňuje týmovou spolupráci.
+**[Git](https://git-scm.com/)** je distribuovaný nástroj pro verzování, který sleduje změny v souborech a ukládá historii projektu do commitů.  
+Umožňuje vracet se ke starším verzím, porovnávat změny, pracovat ve větvích a bezpečně slučovat práci více lidí.  
+**[GitHub](https://github.com/)** je cloudová platforma nad Gitem, kde repozitáře sdílíte, zálohujete a spravujete týmovou spolupráci.  
+Přidává funkce jako pull requesty, code review, issues, CI/CD automatizace (GitHub Actions) a správu přístupů.
 
 ---
 
