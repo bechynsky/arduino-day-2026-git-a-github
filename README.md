@@ -135,3 +135,9 @@ git status
 - Pull requesty umožňují peer review dokumentace.  
 - GitHub Pages dokáže publikovat dokumentaci jako web.  
 - GitHub Copilot může pomoci s psaním dokumentace podle zdrojového kódu.  
+
+---
+
+# Kurzy
+
+[GitHub Learn](https://skills.github.com/)
