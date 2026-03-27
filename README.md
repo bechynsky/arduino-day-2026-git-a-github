@@ -1,6 +1,4 @@
-# Git a GitHub
-
-## Udělejte si pořádek ve zdrojácích
+# Git a GitHub - Udělejte si pořádek ve zdrojácích
 
 ---
 
@@ -11,7 +9,7 @@
 
 ---
 
-# Tools
+# Nástroje
 
 - git  
 - gh  
@@ -51,15 +49,16 @@
 
 ---
 
-# Best Practices
+# Doporučení
 
 - Používejte smysluplné commit message.  
+- Jeden commit by měl obsahovat jen souvysející změny.
 - Nikdy neukládejte do repozitáře hesla nebo citlivá data.  
-- Používejte `.gitignore` pro vyloučení nepotřebných nebo citlivých souborů.  
+- Používejte `.gitignore` pro vyloučení nepotřebných nebo citlivých souborů. 
 
 ---
 
-# GitHub for documentation
+# Documentace
 
 - Repozitáře uchovávají dokumentaci na jednom místě s historií verzí.  
 - Markdown (`.md`) je jednoduchý, čitelný a GitHub jej hezky renderuje.  
