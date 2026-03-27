@@ -114,12 +114,6 @@ git status
 
 ---
 
-# Branch – Commit – Pull Request
-
-![Branch – Commit – Pull Request](branch.png)
-
----
-
 # Doporučení
 
 - Používejte smysluplné commit message.  
@@ -143,3 +137,9 @@ git status
 # Kurzy
 
 [GitHub Learn](https://skills.github.com/)
+
+---
+
+# Branch – Commit – Pull Request
+
+![Branch – Commit – Pull Request](branch.png)
