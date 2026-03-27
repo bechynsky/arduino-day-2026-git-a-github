@@ -4,17 +4,17 @@
 
 # Co je Git a GitHub
 
-**Git** je nástroj pro správu historie kódu a verzování.  
-**GitHub** je platforma, která hostuje Git repozitáře a umožňuje týmovou spolupráci.
+**[Git](https://git-scm.com/)** je nástroj pro správu historie kódu a verzování.  
+**[GitHub](https://github.com/)** je platforma, která hostuje Git repozitáře a umožňuje týmovou spolupráci.
 
 ---
 
 # Nástroje
 
-- git  
-- gh  
-- GitHub Desktop  
-- Visual Studio Code  
+- [git](https://git-scm.com/downloads)  
+- [gh](https://cli.github.com/)  
+- [GitHub Desktop](https://desktop.github.com/download/)  
+- [Visual Studio Code](https://code.visualstudio.com/Download)  
 - …
 
 ---
