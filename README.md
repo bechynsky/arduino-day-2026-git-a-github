@@ -50,6 +50,9 @@
 git config --global user.name "Jmeno Prijmeni"
 git config --global user.email "email@example.com"
 git config --global init.defaultBranch main
+git config --global credential.helper manager
+
+# GitHub přihlášení pro Git proběhne při prvním push/pull
 
 # Přihlášení do GitHub CLI
 gh auth login
