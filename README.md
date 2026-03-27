@@ -35,11 +35,11 @@
 # Základní workflow: Nový projekt a první commit na GitHub
 
 1. Vytvořte repozitář (na GitHubu nebo lokálně)  
-2. Naklonujte repozitář nebo ho otevřete na svém počítači  
-3. Vytvořte nový soubor (např. README nebo projektový soubor)  
-4. Přidejte soubor do staging area  
-5. Vytvořte commit s komentářem  
-6. Nahrajte commit na GitHub (push) 
+1. Naklonujte repozitář nebo ho otevřete na svém počítači  
+1. Vytvořte nový soubor (např. README nebo projektový soubor)  
+1. Přidejte soubor do staging area  
+1. Vytvořte commit s komentářem  
+1. Nahrajte commit na GitHub (push) 
 
 ---
 
