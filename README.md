@@ -30,6 +30,45 @@
 
 ---
 
+# Příkazy - vytvoření lokálního repozitáře
+
+```bash
+git init
+# Po úpravě souborů
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/UZIVATEL/NAZEV-REPO.git
+git push -u origin main
+```
+
+# Příkazy - existující repozitář na GitHub
+
+```bash
+git clone https://github.com/UZIVATEL/NAZEV-REPO.git
+cd NAZEV-REPO
+
+# Po úpravě souborů
+git add .
+git commit -m "Popis změn"
+git pull --rebase origin main
+git push origin main
+```
+
+# Příkazy - pouze lokální repozitář (bez GitHubu)
+
+```bash
+git init
+
+# Po úpravě souborů
+git add .
+git commit -m "První lokální commit"
+
+# Kontrola historie a stavu
+git log --oneline --decorate --graph
+git status
+```
+
 # Základní terminologie
 
 - **Repository (repo):** Projektová složka sledovaná Gitem, obsahuje soubory i historii.  
