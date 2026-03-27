@@ -43,6 +43,21 @@
 
 ---
 
+# Konfigurace git a gh po první instalaci
+
+```bash
+# Git identita pro commity
+git config --global user.name "Jmeno Prijmeni"
+git config --global user.email "email@example.com"
+git config --global init.defaultBranch main
+
+# Přihlášení do GitHub CLI
+gh auth login
+gh auth status
+```
+
+---
+
 # Příkazy - nový repozitář a GitHub
 
 ```bash
@@ -51,6 +66,11 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
+
+# Vytvoření repozitáře na GitHubu přes gh
+gh repo create NAZEV-REPO --public --source=. --remote=origin
+
+# Alternativa bez gh:
 git remote add origin https://github.com/UZIVATEL/NAZEV-REPO.git
 git push -u origin main
 ```
@@ -60,6 +80,7 @@ git push -u origin main
 # Příkazy - existující repozitář na GitHub
 
 ```bash
+
 git clone https://github.com/UZIVATEL/NAZEV-REPO.git
 cd NAZEV-REPO
 
