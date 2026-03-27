@@ -2,7 +2,7 @@
 
 ---
 
-# CO je Git a GitHub
+# Co je Git a GitHub
 
 **Git** je nástroj pro správu historie kódu a verzování.  
 **GitHub** je platforma, která hostuje Git repozitáře a umožňuje týmovou spolupráci.
@@ -19,7 +19,20 @@
 
 ---
 
-# Základní workflow: Od repozitáře k prvnímu commitu
+# Základní terminologie
+
+- **Repository (repo):** Projektová složka sledovaná Gitem, obsahuje soubory i historii.  
+- **Clone:** Stažení vzdáleného repozitáře na lokální počítač.  
+- **Stage:** Příprava změn pro commit.  
+- **Commit:** Snímek změn uložený do repozitáře.  
+- **Branch:** Paralelní větev vývoje, často pro nové funkce nebo opravy.  
+- **Merge:** Sloučení změn z jedné větve do druhé.  
+- **Push:** Odeslání lokálních commitů do vzdáleného repozitáře.  
+- **Pull:** Stažení a začlenění změn z remote repozitáře.  
+
+---
+
+# Základní workflow: Nový projekt a první commit na GitHub
 
 1. Vytvořte repozitář (na GitHubu nebo lokálně)  
 2. Naklonujte repozitář nebo ho otevřete na svém počítači  
@@ -30,7 +43,7 @@
 
 ---
 
-# Příkazy - vytvoření lokálního repozitáře
+# Příkazy - nový repozitář a GitHub
 
 ```bash
 git init
@@ -41,6 +54,8 @@ git branch -M main
 git remote add origin https://github.com/UZIVATEL/NAZEV-REPO.git
 git push -u origin main
 ```
+
+---
 
 # Příkazy - existující repozitář na GitHub
 
@@ -55,6 +70,8 @@ git pull --rebase origin main
 git push origin main
 ```
 
+---
+
 # Příkazy - pouze lokální repozitář (bez GitHubu)
 
 ```bash
@@ -68,17 +85,6 @@ git commit -m "První lokální commit"
 git log --oneline --decorate --graph
 git status
 ```
-
-# Základní terminologie
-
-- **Repository (repo):** Projektová složka sledovaná Gitem, obsahuje soubory i historii.  
-- **Clone:** Stažení vzdáleného repozitáře na lokální počítač.  
-- **Stage:** Příprava změn pro commit.  
-- **Commit:** Snímek změn uložený do repozitáře.  
-- **Branch:** Paralelní větev vývoje, často pro nové funkce nebo opravy.  
-- **Merge:** Sloučení změn z jedné větve do druhé.  
-- **Push:** Odeslání lokálních commitů do vzdáleného repozitáře.  
-- **Pull:** Stažení a začlenění změn z remote repozitáře.  
 
 ---
 
@@ -97,7 +103,7 @@ git status
 
 ---
 
-# Documentace
+# Dokumentace
 
 - Repozitáře uchovávají dokumentaci na jednom místě s historií verzí.  
 - Markdown (`.md`) je jednoduchý, čitelný a GitHub jej hezky renderuje.  
